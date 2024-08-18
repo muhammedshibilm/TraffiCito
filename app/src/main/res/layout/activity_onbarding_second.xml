@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="@drawable/gradientbackgroud"
+    tools:context=".ui.onbarding_second">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Professional  Details"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/badgenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Badge Number"
+            android:padding="20dp"
+            android:textColorHint="@color/black"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Department"
+            android:padding="20dp"
+            android:textColorHint="@color/black"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/positionrank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Position / Rank"
+            android:padding="20dp"
+            android:textColorHint="@color/black"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:inputType="text"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="upload officer id"
+            android:drawableLeft="@drawable/baseline_upload_file_24"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/buttontwo"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="upload Government id"
+            android:drawableLeft="@drawable/baseline_upload_file_24"
+            android:layout_marginVertical="10dp"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/buttontwo"/>
+
+        <Button
+            android:id="@+id/finishbtn"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="F i n i s h"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+</RelativeLayout>

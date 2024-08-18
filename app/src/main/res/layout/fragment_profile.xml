@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="300dp">
+         <com.google.android.material.imageview.ShapeableImageView
+             android:layout_width="100dp"
+             android:layout_height="100dp"
+             android:src="@drawable/profile"
+             android:layout_gravity="center"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Leanor Henderson"
+             android:textSize="20sp"
+             android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10sp"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="@drawable/profile_label_desgin"
+        >
+        <ImageButton
+            android:tooltipText="editprofile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/baseline_edit_24"
+            android:background="@drawable/profile_icon_design"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E d i t P r o f i l e"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10sp"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="@drawable/profile_label_desgin"
+        >
+        <ImageButton
+            android:tooltipText="notification"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/baseline_notifications_24"
+            android:background="@drawable/profile_icon_design"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N o t i f i c a t i o n"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10sp"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="@drawable/profile_label_desgin"
+        >
+        <ImageButton
+            android:tooltipText="settings"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/baseline_settings_24"
+            android:background="@drawable/profile_icon_design"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S e t t i n g s"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10sp"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="@drawable/profile_label_desgin"
+        >
+        <ImageButton
+            android:tooltipText="privacy policy"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_edit_24"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/baseline_policy_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P r i v a cy P o l i c y"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:text="Log out"/>
+    </LinearLayout>
+
+</LinearLayout>
